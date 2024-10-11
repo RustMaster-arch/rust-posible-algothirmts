@@ -1,0 +1,17 @@
+[package]
+name = "rust_posible_algothirmts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "benchmark"
+harness = false
+
+[lib]
+name = "custom_create"
+path = "src/lib.rs"
